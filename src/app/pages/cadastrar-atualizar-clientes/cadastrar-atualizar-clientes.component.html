@@ -1,0 +1,58 @@
+<h2 class="display-6">{{ cpfCliente ? 'Editar Cliente' : 'Cadastrar Cliente' }}</h2>
+<hr>
+
+<div class="container-fluid">
+  <form [formGroup]="clienteForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col-3">
+        <div class="mb-5">
+          <label for="cpf" class="form-label">CPF</label>
+          <input typy="next" mask="000.000.000-00" class="form-control" id="cpf" formControlName="cpf" min="0"/>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="mb-5">
+          <label for="nome" class="form-label">Nome</label>
+          <input typy="next" class="form-control" id="nome" formControlName="nome"/>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-5">
+          <label for="telefone" class="form-label">Telefone</label>
+          <input prefix="+55" mask="(00) 0000-0000 || (00) 00000-0000" typy="text" class="form-control" id="telefone" formControlName="telefone" min="0"/>
+        </div>
+      </div>
+      <div>
+        <div formGroupName="endereco">
+          <div class="row">
+            <div class="col-3">
+              <div class="mb-5">
+                <label for="cep" class="form-label">CEP</label>
+                <input typy="text" mask="00.000-000" class="form-control" id="cep" formControlName="cep" min="0"/>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="mb-5">
+                <label for="rua" class="form-label">Rua</label>
+                <input typy="text" class="form-control" id="rua" formControlName="rua"/>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="mb-5">
+                <label for="numero" class="form-label">Número</label>
+                <input typy="number" class="form-control" id="numero" formControlName="numero" min="0"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-5">
+          <label for="rendimentoMensal" class="form-label">Rendimento Mensal</label>
+          <input typy="number" prefix="R$ " mask="separator.2" thousandSeparator="." class="form-control"  id="rendimentoMensal" formControlName="rendimentoMensal" min="0"/>
+        </div>
+      </div>
+    </div>
+    <button type="submit" [disabled]="!clienteForm.valid" class="btn btn-dark btn-sm">{{ cpfCliente ? 'Salvar Edição' : 'Cadastrar Novo Cliente' }}</button>
+  </form>
+</div>
