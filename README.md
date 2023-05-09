@@ -71,4 +71,4 @@ Execute `ng build` para construir o projeto. Os artefatos de construção serão
 Feito por João Rafael 👋🏽 Entre em contato!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joao-rafael-leite/)
-[![Hotmail](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=whitem)](mailto:joaorafael.leite@hotmail.com)
+[![Microsoft Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=whitem)](mailto:joaorafael.leite@hotmail.com)
