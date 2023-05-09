@@ -64,6 +64,11 @@ Execute `ng generate component component-name` para gerar um novo componente. Vo
 
 Execute `ng build` para construir o projeto. Os artefatos de construção serão armazenados no diretório `dist/`.
 
-## Informações de Contato
+## Autor
 
-  Caso tenha alguma dúvida, sugestão ou crítica, entre em contato pelo [email](joaorafael.leite@hotmail.com) ou pelo [LinkedIn](https://www.linkedin.com/in/joao-rafael-leite/).
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/112492208?s=400&u=d9c75b76dd2b8ebed82d5b37ac031c6da8600948&v=4" width="100px;" alt=""/>
+
+Feito com João Rafael 👋🏽 Entre em contato!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joao-rafael-leite/)
+[![Hotmail]https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=whitem)](mailto:joaorafael.leite@hotmail.com)
